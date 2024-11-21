@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="countdown-timer.js" defer></script>
+    <title>Assignment 2: Implementing Timers in JavaScript</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        #countdown-display {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Timer Application</h1>
+
+    <!-- Task 1: Countdown Timer -->
+    <div>
+        <label for="timer-input">Set Timer (seconds): </label>
+        <input type="number" id="timer-input" min="1" placeholder="Enter seconds">
+        <button id="start-timer">Start Countdown</button>
+        <div id="countdown-display"></div>
+    </div>
+
+    <!-- Task 2: Delayed Notification -->
+    <div>
+        <button id="notify-once">Show Delayed Notification</button>
+    </div>
+
+    <!-- Task 3: Repeat Notification -->
+    <div>
+        <button id="notify-repeat">Show Repeated Notifications</button>
+    </div>
+</body>
+</html>
